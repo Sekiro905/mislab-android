@@ -1,0 +1,30 @@
+{
+  "id": "3580698",
+  "name": "招新网站移动",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "26366870",
+      "name": "箭头_向右",
+      "font_class": "jiantou_xiangyou",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "26315518",
+      "name": "箭头向右",
+      "font_class": "jiantouxiangyou",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "17521046",
+      "name": "垂直直线",
+      "font_class": "chuizhizhixian",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}
