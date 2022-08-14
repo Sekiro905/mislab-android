@@ -1,0 +1,57 @@
+/* 每个产品的展示框 */
+.item {
+    width: 365px;
+    height: 120px;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.youwen {
+    background: linear-gradient(90deg,#f1f2d0,#b1d8b4);
+    margin: 10px auto;
+}
+
+.erp {
+    background: linear-gradient(270deg,#c9dae7,#ebeff9);
+    margin: 10px 0px 0px 15px;
+}
+
+.product-img-outer {
+    width: 110px;
+    height: 110px;
+    margin: 5px 0 5px 15px;
+    
+}
+
+.product-img-outer img {
+    width: 100%;
+}
+
+.product-more-outer {
+    width: 220px;
+    height: 110px;
+    margin: 5px 15px 5px 0;
+}
+
+.product-title {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.product-supplement {
+    font-size: 8px;
+}
+
+.product-detail {
+    font-size: 8px;
+}
+
+.ywbd {
+    color: #44914b;
+}
+
+.erpxt {
+    color: #4a73dc;
+}

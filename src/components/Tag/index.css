@@ -1,0 +1,82 @@
+/* "关于我们"图片周围的标签 */
+.tag {
+    display: inline-block;
+    height: 20px;
+    padding: 5px 5px;
+    border: 1px solid rgb(199, 228, 234);
+    border-radius: 7px;
+    line-height: 20px;
+    background-color: rgb(199, 228, 234);
+}
+
+.cx {
+    position: absolute;
+    left: 5px;
+    top: 60px;
+    animation: float .5s .14s linear forwards infinite alternate;
+}
+
+.nq {
+    position: absolute;
+    left: 100px;
+    top: 55px;
+    animation: float .85s .14s linear forwards infinite alternate;
+}
+
+.zh {
+    position: absolute;
+    right: 110px;
+    top: 45px;
+    animation: float .6s .14s linear forwards infinite alternate;
+
+}
+
+.fx {
+    position: absolute;
+    right: 0px;
+    top: 65px;
+    animation: float .7s .14s linear forwards infinite alternate;
+
+}
+
+.hk {
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+    animation: float 1.4s .14s linear forwards infinite alternate;
+
+}
+
+.bm {
+    position: absolute;
+    left: 150px;
+    bottom: 70px;
+    animation: float 1.2s .14s linear forwards infinite alternate;
+
+}
+
+.rc {
+    position: absolute;
+    right: 90px;
+    bottom: 30px;
+    animation: float .8s .14s linear forwards infinite alternate;
+
+}
+
+.js {
+    position: absolute;
+    right: 5px;
+    bottom: 50px;
+    animation: float .9s .14s linear forwards infinite alternate;
+
+}
+
+/* 标签浮动 */
+@keyframes float {
+    from {
+        transform: translatey(-4px);
+    }
+    to {
+        transform: translatey(4px);
+    }
+}
