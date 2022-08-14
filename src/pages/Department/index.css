@@ -1,0 +1,63 @@
+/* 部门头部的标题 */
+@keyframes dep-title {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* 部门头部名称在左侧的介绍 */
+@keyframes dep-content-left {
+  0% {
+    transform: translateX(300px);
+  }
+  75% {
+    transform: translateX(-10px);
+  }
+  85% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* 部门头部名称在右侧的介绍 */
+@keyframes dep-content-right {
+  0% {
+    transform: translateX(-300px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+  85% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.dep-content-left {
+  animation: dep-content-left 1s forwards;
+  animation-delay: 0.2s;
+}
+.dep-content-right {
+  animation: dep-content-right 1s forwards;
+  animation-delay: 0.2s;
+}
+.dep-title {
+  animation: dep-title 1s forwards;
+  animation-delay: 0.2s;
+}
+/* 关于andorid头部名称换行 */
+.android .dep-content {
+  text-indent: 0;
+}
+.android .dep-title p {
+  display: block;
+  width: 56px;
+  margin: 0 auto;
+  line-height: 18px;
+  margin-top: 30px;
+}
