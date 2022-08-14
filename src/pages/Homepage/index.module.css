@@ -1,0 +1,143 @@
+/* 首页 */
+.back {
+  width: 387px;
+  height: 669px;
+  min-height: 669px;
+  min-width: 387px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  min-width: 387px;
+}
+
+.homepage-title-outer {
+  position: absolute;
+  top: 35px;
+  left: 7px;
+}
+
+.homepage-title1 {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.homepage-title2 {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.right-graphic1-outer {
+  width: 300px;
+  height: 250px;
+  background-color: #fff;
+  transform: rotate(40deg);
+  position: absolute;
+  top: -176px;
+  left: 156px;
+  box-shadow: 10px 10px 9px #888888;
+}
+
+.left-graphic-outer {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 140px;
+  left: -123px;
+  box-shadow: 10px 10px 7px #888888;
+}
+
+.right-graphic2-outer {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 389px;
+  left: 265px;
+  box-shadow: 5px -15px 8px #888888;
+}
+
+.middle-slogan-outer {
+  width: 300px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 303px;
+  left: 50%;
+  text-align: center;
+}
+
+.slogan1 {
+  font-family: "Arial Negreta", "Arial Normal", "Arial";
+  font-size: 37px;
+  font-weight: bold;
+  display: block;
+}
+
+.slogan2 {
+  font-family: "negreta";
+  font-size: 37px;
+  font-weight: bold;
+  display: block;
+}
+
+.slogan3-outer {
+  position: relative;
+}
+
+.slogan3-outer::before {
+  content: "";
+  width: 60px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #d8d4d4;
+  position: absolute;
+  top: 50%;
+  left: -30px;
+}
+
+.slogan3-outer::after {
+  content: "";
+  width: 60px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #d8d4d4;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+}
+
+.slogan3 {
+  font-family: "negreta";
+  font-size: 18px;
+  color: rgb(127, 127, 127);
+  letter-spacing: 11.7px;
+  font-weight: bold;
+  display: block;
+}
+
+.foot-plane-outer {
+  position: absolute;
+  top: 520px;
+  left: 30%;
+  animation: float .5s .14s linear forwards infinite alternate;
+}
+
+/* 飞机浮动 */
+@keyframes float {
+  from {
+      transform: translatey(-4px);
+  }
+  to {
+      transform: translatey(4px);
+  }
+}

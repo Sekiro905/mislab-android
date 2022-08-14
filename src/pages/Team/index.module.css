@@ -1,0 +1,63 @@
+/* 团队介绍 */
+.back {
+  width: 387px;
+  height: 669px;
+  min-height: 669px;
+  min-width: 387px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.head {
+  height: 60px;
+  font-family: "Arial Negreta", "Arial Normal", "Arial";
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  min-width: 72px;
+  top: 30px;
+  left: 35px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  min-width: 387px;
+}
+
+.team-intro-outer {
+  width: 342px;
+  height: 315px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%);
+  border: 1px solid rgb(125, 125, 125);
+  border-radius: 29px;
+}
+
+.team-intro-outer2 {
+  width: 304px;
+  height: 217px;
+  margin: 45px auto;
+}
+
+.team-intro {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 8px;
+}
+
+.team-pic-outer {
+  width: 376px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0px;
+}
