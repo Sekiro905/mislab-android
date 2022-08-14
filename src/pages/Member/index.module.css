@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.back {
+  width: 100%;
+  height: 100%;
+  min-width: 387px;
+}
+
+/* 头部 */
+.head {
+  height: 60px;
+  font-family: "Arial Negreta", "Arial Normal", "Arial";
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+}
+.tittle {
+  position: absolute;
+  min-width: 72px;
+  top: 30px;
+  left: 35px;
+}
+
+/* 内容区 */
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 402px;
+  margin: 0 auto ;
+  margin-top: 40px;
+  border: rgb(215, 215, 215) solid 1px;
+  border-radius: 60px;
+  overflow: hidden;
+  position: relative;
+}
+@keyframes member-member-left {
+  0% {
+    transform: translateX(-1px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(471px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-1px);
+    opacity: 0;
+  }
+}
+@keyframes member-member-right {
+  0% {
+    transform: translateX(1px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-458px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(1px);
+    opacity: 0;
+  }
+}
+.member-left,
+.member-right {
+  width: 170px;
+  height: 402px;
+  font-size: 15px;
+  position: absolute;
+}
+.member-left {
+  left: -170px;
+  text-align: center;
+}
+.member-right {
+  right: -170px;
+  text-align: center;
+}
+.left {
+  height: 17px;
+  width: 170px;
+}
+.right {
+  height: 17px;
+  width: 150px;
+}
+
+/* 左边的member */
+.member-left div:nth-child(1) {
+  animation: member-member-left 10s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(2) {
+  animation: member-member-left 19s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(3) {
+  animation: member-member-left 9s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(4) {
+  animation: member-member-left 15s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(5) {
+  animation: member-member-left 13s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(6) {
+  animation: member-member-left 21s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(7) {
+  animation: member-member-left 11.5s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(8) {
+  animation: member-member-left 15s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(9) {
+  animation: member-member-left 10s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(10) {
+  animation: member-member-left 19s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(11) {
+  animation: member-member-left 17s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(12) {
+  animation: member-member-left 13.4s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(13) {
+  animation: member-member-left 8s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(14) {
+  animation: member-member-left 20s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(15) {
+  animation: member-member-left 15.8s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(16) {
+  animation: member-member-left 17s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(17) {
+  animation: member-member-left 10s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(18) {
+  animation: member-member-left 16s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(19) {
+  animation: member-member-left 13s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(20) {
+  animation: member-member-left 15s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(21) {
+  animation: member-member-left 19.5s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(22) {
+  animation: member-member-left 13s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left div:nth-child(23) {
+  animation: member-member-left 10s linear infinite;
+  animation-delay: 0.2s;
+}
+
+/* 右边的member */
+.member-right div:nth-child(1) {
+  animation: member-member-right 13s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(2) {
+  animation: member-member-right 10s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(3) {
+  animation: member-member-right 19s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(4) {
+  animation: member-member-right 12.5s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(5) {
+  animation: member-member-right 18s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(6) {
+  animation: member-member-right 15s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(7) {
+  animation: member-member-right 17s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(8) {
+  animation: member-member-right 11s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(9) {
+  animation: member-member-right 14s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(10) {
+  animation: member-member-right 18.5s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(11) {
+  animation: member-member-right 15.5s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(12) {
+  animation: member-member-right 21s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(13) {
+  animation: member-member-right 10s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(14) {
+  animation: member-member-right 18s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(15) {
+  animation: member-member-right 15s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(16) {
+  animation: member-member-right 11.5s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(17) {
+  animation: member-member-right 14s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(18) {
+  animation: member-member-right 17s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(19) {
+  animation: member-member-right 12.5s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(20) {
+  animation: member-member-right 16.5s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(21) {
+  animation: member-member-right 19s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(22) {
+  animation: member-member-right 13.5s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right div:nth-child(23) {
+  animation: member-member-right 15.5s linear infinite;
+  animation-delay: 0.2s;
+}
+
+/* 底部 */
+.footer {
+  width: 100%;
+  height: 100%;
+  min-width: 387px;
+  min-height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+.footer-img {
+  width: 175px;
+  height: 170px;
+  display: inline;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

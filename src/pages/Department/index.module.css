@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.back {
+  width: 100%;
+  height: 100%;
+  min-height: 669px;
+  min-width: 387px;
+  overflow: hidden;
+}
+
+/* 头部标题 */
+.head {
+  height: 60px;
+  font-family: "Arial Negreta", "Arial Normal", "Arial";
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+}
+.tittle {
+  position: absolute;
+  min-width: 72px;
+  top: 30px;
+  left: 35px;
+}
+
+/* 内容区 */
+.content {
+  width: 100%;
+  height: 100%;
+  min-width: 387px;
+}
+.line-back {
+  width: 100%;
+  margin-top: 30px;
+  position: absolute;
+  min-width: 387px;
+}
+.line-box {
+  height: 100%;
+  min-height: 282px;
+}
+.line-group {
+  width: 100%;
+  min-width: 387px;
+  position: absolute;
+  z-index: -1;
+}
+.lineL {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  top: 0;
+  bottom: 0;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  width: 3px;
+  height: 145px;
+  background-color: rgb(121, 121, 121);
+  border-radius: 2px;
+  transform: rotate(10deg);
+}
+.lineR {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  top: 100%;
+  width: 3px;
+  height: 145px;
+  background-color: rgb(121, 121, 121);
+  border-radius: 2px;
+  transform: rotate(-10deg);
+}
+.depart-back {
+  padding-top: 115px;
+}
+
+/* 底部图片 */
+.footer {
+  width: 100%;
+  text-align: center;
+}
+.footer-img {
+  width: 387px;
+  height: 204px;
+}
