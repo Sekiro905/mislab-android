@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 
+import DepartLeft from "../../component/depart-left";
+import DepartRight from "../../component/depart-right";
+
 import styles from "./index.module.css";
+import "./index.css";
 
 export default class Department extends Component {
   render() {
@@ -36,65 +40,44 @@ export default class Department extends Component {
             </div>
             {/* 各部门介绍 */}
             <div className={styles["depart-back"]}>
-              <div className={`${styles.web} ${styles.depart}`}>
-                <div className={styles["dep-titlle"]}>Web开发部</div>
-                <div className={styles["dep-content"]}>
-                  <p>
-                    前端即网站前台部分，运行在PC端，移动端等浏览器上展现给用户浏览的网页。
-                    前端开发人员可以使用完美的动效设计和前端技术，给用户带来极高的页面视觉体验和用户交互体验。
-                  </p>
-                </div>
-              </div>
+              <DepartLeft
+                className="web"
+                title="Web开发部"
+                content="前端即网站前台部分，运行在PC端，移动端等浏览器上展现给用户浏览的网页。
+                    前端开发人员可以使用完美的动效设计和前端技术，给用户带来极高的页面视觉体验和用户交互体验。"
+              />
 
-              <div className={`${styles["back-end"]} ${styles.depart}`}>
-                <div className={styles["dep-content"]}>
-                  <p>
-                    后端开发指的是运行在后台并且控制前端的内容，它负责程序设计架构以及数据库管理和处理相关的业务逻辑。
-                    它主要考虑的是对于业务的控制和处理，功能的实现以及数据的操作。
-                  </p>{" "}
-                </div>
+              <DepartRight
+                className="back-end"
+                title="后端开发部"
+                content="后端开发指的是运行在后台并且控制前端的内容，它负责程序设计架构以及数据库管理和处理相关的业务逻辑。
+                    它主要考虑的是对于业务的控制和处理，功能的实现以及数据的操作。"
+              />
 
-                <div className={styles["dep-titlle"]}>后端开发部</div>
-              </div>
+              <DepartLeft
+                className="product"
+                title="产品设计部"
+                content="捕捉事物间逻辑，倾听用户们需求，结合各平台数据，设计最好用产品。来产品策划部,
+                    培养更缜密的思维，学习产品设计，将从道术器三个层面，建立自己与互联网产品的亲密联系。"
+              />
 
-              <div className={`${styles.product} ${styles.depart}`}>
-                <div className={styles["dep-titlle"]}>产品设计部</div>
-                <div className={styles["dep-content"]}>
-                  <p>
-                    {" "}
-                    捕捉事物间逻辑，倾听用户们需求，结合各平台数据，设计最好用产品。来产品策划部,
-                    培养更缜密的思维，学习产品设计，将从道术器三个层面，建立自己与互联网产品的亲密联系。
-                  </p>
-                </div>
-              </div>
+              <DepartRight
+                className="robot"
+                title="机器学习部"
+                content="机器学习从从历史数据中学习规律，将规律应用到未来中。我们致力于研究如何
+                    通过计算的手段，利用数据构建模型，量化过去，预测未来。"
+              />
 
-              <div className={`${styles.robot} ${styles.depart}`}>
-                <div className={styles["dep-content"]}>
-                  <p>
-                    {" "}
-                    机器学习从从历史数据中学习规律，将规律应用到未来中。我们致力于研究如何
-                    通过计算的手段，利用数据构建模型，量化过去，预测未来。
-                  </p>
-                </div>
-                <div className={styles["dep-titlle"]}>机器学习部</div>
-              </div>
+              {/* <p style={{lineHeight:'18px',display:'block',width:'56px',margin:'0 auto',marginTop:'30px'}} >Android开发部</p> */}
 
-              <div className={`${styles.android} ${styles.depart}`}>
-                <div className={styles["dep-titlle"]}>
-                  {" "}
-                  <p>Android</p>
-                  <p>开发部</p>
-                </div>
-                <div
-                  className={`${styles["dep-content"]} ${styles["android-content"]}`}
-                >
-                  <p>
-                    Android开发是指从事Android系统操作应用和各种Android平台功能应用，
+              <DepartLeft
+                className="android"
+                title="Android开发部"
+                content="Android开发是指从
+                    事Android系统操作应用和各种Android平台功能应用，
                     以安卓平台为对象，通过Android
-                    studio来布局设计界面与接口实现功能从而达到开发手机软件app。
-                  </p>
-                </div>
-              </div>
+                    studio来布局设计界面与接口实现功能从而达到开发手机软件app。"
+              />
             </div>
           </div>
           <div className={styles.footer}>
