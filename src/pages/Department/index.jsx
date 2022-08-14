@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import DepartLeft from "../../component/depart-left";
-import DepartRight from "../../component/depart-right";
+import DepartLeft from "../../components/DepartLeft";
+import DepartRight from "../../components/DepartRight";
 
 import styles from "./index.module.css";
 import "./index.css";
