@@ -38,7 +38,7 @@
   width: 300px;
   height: 250px;
   background-color: #fff;
-  transform: rotate(40deg);
+  animation: tri-lr-move 5s ease-in-out forwards infinite alternate;
   position: absolute;
   top: -176px;
   left: 156px;
@@ -54,6 +54,7 @@
   top: 140px;
   left: -123px;
   box-shadow: 10px 10px 7px #888888;
+  animation: cir-lr-move 10s linear forwards infinite alternate;
 }
 
 .right-graphic2-outer {
@@ -65,6 +66,7 @@
   top: 389px;
   left: 265px;
   box-shadow: 5px -15px 8px #888888;
+  animation: cir-tb-move 2s ease-in forwards infinite alternate;
 }
 
 .middle-slogan-outer {
@@ -129,15 +131,47 @@
   position: absolute;
   top: 520px;
   left: 30%;
-  animation: float .5s .14s linear forwards infinite alternate;
+  animation: float 1s 0.14s linear forwards infinite alternate;
 }
 
 /* 飞机浮动 */
 @keyframes float {
   from {
-      transform: translatey(-4px);
+    transform: translateX(-4px);
   }
   to {
-      transform: translatey(4px);
+    transform: translateY(4px);
+  }
+}
+
+/* 三角形左右移动 */
+@keyframes tri-lr-move {
+  from {
+    transform: translateX(-10px) rotate(40deg);
+  }
+  to {
+    transform: translateY(10px) rotate(40deg);
+  }
+}
+
+/* 左边圆形左右移动 */
+@keyframes cir-lr-move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+/* 右边圆形上下移动 */
+@keyframes cir-tb-move {
+  from {
+    transform: translateY(0px);
+    box-shadow: 5px -15px 8px #888888;
+  }
+  to {
+    transform: translateY(30px);
+    box-shadow: 0px 0px 0px #888888;
   }
 }
