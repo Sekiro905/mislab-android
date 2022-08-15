@@ -11,39 +11,69 @@
 
 .cx {
     position: absolute;
-    left: 5px;
-    top: 60px;
-    animation: float .5s .14s linear forwards infinite alternate;
+    left: 150px;
+    bottom: 70px;
+    animation-name: cxmove,float;
+    animation-duration: 1s,.5s;
+    animation-delay: 0s, 1.1s;
+    animation-timing-function: linear,linear;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode: forwards,forwards;
+    animation-direction: normal,alternate-reverse;
 }
 
 .nq {
     position: absolute;
-    left: 100px;
-    top: 55px;
-    animation: float .85s .14s linear forwards infinite alternate;
+    left: 150px;
+    bottom: 70px;
+    animation-name: nqmove,float;
+    animation-duration: 1s,.86s;
+    animation-delay: 0s, 1.1s;
+    animation-timing-function: linear,linear;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode: forwards,forwards;
+    animation-direction: normal,alternate-reverse;
 }
 
 .zh {
     position: absolute;
-    right: 110px;
-    top: 45px;
-    animation: float .6s .14s linear forwards infinite alternate;
+    left: 150px;
+    bottom: 70px;
+    animation-name: zhmove,float;
+    animation-duration: 1s,.6s;
+    animation-delay: 0s, 1.1s;
+    animation-timing-function: linear,linear;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode: forwards,forwards;
+    animation-direction: normal,alternate-reverse;
 
 }
 
 .fx {
     position: absolute;
-    right: 0px;
-    top: 65px;
-    animation: float .7s .14s linear forwards infinite alternate;
+    left: 150px;
+    bottom: 70px;
+    animation-name: fxmove,float;
+    animation-duration: 1s,.7s;
+    animation-delay: 0s, 1.1s;
+    animation-timing-function: linear,linear;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode: forwards,forwards;
+    animation-direction: normal,alternate-reverse;
 
 }
 
 .hk {
     position: absolute;
-    left: 0px;
-    bottom: 40px;
-    animation: float 1.4s .14s linear forwards infinite alternate;
+    left: 150px;
+    bottom: 70px;
+    animation-name: hkmove,float;
+    animation-duration: 1s,1.4s;
+    animation-delay: 0s, 1.1s;
+    animation-timing-function: linear,linear;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode: forwards,forwards;
+    animation-direction: normal,alternate-reverse;
 
 }
 
@@ -51,24 +81,40 @@
     position: absolute;
     left: 150px;
     bottom: 70px;
-    animation: float 1.2s .14s linear forwards infinite alternate;
+    animation-name: bmmove,float;
+    animation-duration: 1s,1.2s;
+    animation-delay: 0s, 1.1s;
+    animation-timing-function: linear,linear;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode: forwards,forwards;
+    animation-direction: normal,alternate-reverse;
 
 }
 
 .rc {
     position: absolute;
-    right: 90px;
-    bottom: 30px;
-    animation: float .8s .14s linear forwards infinite alternate;
-
+    left: 150px;
+    bottom: 70px;
+    animation-name: rcmove,float;
+    animation-duration: 1s,.8s;
+    animation-delay: 0s, 1.1s;
+    animation-timing-function: linear,linear;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode: forwards,forwards;
+    animation-direction: normal,alternate-reverse;
 }
 
 .js {
     position: absolute;
-    right: 5px;
-    bottom: 50px;
-    animation: float .9s .14s linear forwards infinite alternate;
-
+    left: 150px;
+    bottom: 70px;
+    animation-name: jsmove,float;
+    animation-duration: 1s,.9s;
+    animation-delay: 0s, 1.1s;
+    animation-timing-function: linear,linear;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode: forwards,forwards;
+    animation-direction: normal,alternate-reverse;
 }
 
 /* 标签浮动 */
@@ -78,5 +124,62 @@
     }
     to {
         transform: translatey(4px);
+    }
+}
+
+/* 标签爆炸 */
+@keyframes cxmove {
+    100%{
+        bottom: 105px;
+        left: 5px;
+    }
+}
+
+@keyframes nqmove {
+    100%{
+        bottom: 90px;
+        left: 110px;
+    }
+}
+
+@keyframes zhmove {
+    100%{
+        bottom: 100px;
+        left: 235px;
+    }
+}
+
+@keyframes fxmove {
+    100%{
+        bottom: 105px;
+        left: 326px;
+    }
+}
+
+@keyframes hkmove {
+    100%{
+        bottom: 30px;
+        left: 1px;
+    }
+}
+
+@keyframes bmmove {
+    100%{
+        bottom: 50px;
+        left: 150px;
+    }
+}
+
+@keyframes rcmove {
+    100%{
+        bottom: 15px;
+        left: 235px;
+    }
+}
+
+@keyframes jsmove {
+    100%{
+        bottom: 55px;
+        left: 310px;
     }
 }
