@@ -3,8 +3,10 @@ import './index.css'
 
 export default class Tag extends Component {
   render() {
+    let {className , tag} = this.props
+
     return (
-      <span className={`${this.props.className} tag`} children={this.props.tag}></span>
+      <span className={`${className} tag`} children={tag}></span>
     )
   }
 }
