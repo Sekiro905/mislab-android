@@ -132,6 +132,7 @@
   top: 520px;
   left: 30%;
   animation: float 1s 0.14s linear forwards infinite alternate;
+  cursor: pointer;
 }
 
 /* 飞机浮动 */
