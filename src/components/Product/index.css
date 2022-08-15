@@ -10,12 +10,18 @@
 
 .youwen {
     background: linear-gradient(90deg,#f1f2d0,#b1d8b4);
+    position: relative;
     margin: 10px auto;
+    opacity: 0;
+    animation: ywmove 1s linear forwards;
 }
 
 .erp {
     background: linear-gradient(270deg,#c9dae7,#ebeff9);
+    position: relative;
     margin: 10px 0px 0px 15px;
+    opacity: 0;
+    animation: erpmove 1s linear forwards;
 }
 
 .product-img-outer {
@@ -54,4 +60,25 @@
 
 .erpxt {
     color: #4a73dc;
+}
+
+/* 产品卡缓慢出现 */
+@keyframes ywmove {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes erpmove {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
