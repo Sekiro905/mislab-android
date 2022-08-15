@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 import styles from "./index.module.css";
 
 export default class Homepage extends Component {
@@ -25,9 +26,16 @@ export default class Homepage extends Component {
                 </div>
               </div>
             </div>
-            <div className={styles["foot-plane-outer"]}>
-              <img src={require("../../assets/feiji.png")} alt="纸飞机" />
-            </div>
+            <Link
+            to="Us"
+            smooth={true}
+            duration={500}
+            spy={true}
+            >
+              <div className={styles["foot-plane-outer"]}>
+                <img src={require("../../assets/feiji.png")} alt="纸飞机" />
+              </div>
+            </Link>
           </div>
         </div>
       </div>
