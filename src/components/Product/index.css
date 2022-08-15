@@ -13,10 +13,24 @@
     position: relative;
     margin: 10px auto;
     opacity: 0;
+    
+}
+.youwen-show{
+    background: linear-gradient(90deg,#f1f2d0,#b1d8b4);
+    position: relative;
+    margin: 10px auto;
+    opacity: 0;
     animation: ywmove 1s linear forwards;
 }
 
 .erp {
+    background: linear-gradient(270deg,#c9dae7,#ebeff9);
+    position: relative;
+    margin: 10px 0px 0px 15px;
+    opacity: 0;
+    
+}
+.erp-show {
     background: linear-gradient(270deg,#c9dae7,#ebeff9);
     position: relative;
     margin: 10px 0px 0px 15px;

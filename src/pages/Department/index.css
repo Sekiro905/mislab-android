@@ -38,23 +38,61 @@
   }
 }
 
-.dep-content-left {
-  animation: dep-content-left 1s forwards;
-  animation-delay: 0.2s;
+.web,
+.back-end,
+.product,
+.robot,
+.android {
+  opacity: 0;
 }
-.dep-content-right {
-  animation: dep-content-right 1s forwards;
-  animation-delay: 0.2s;
+.dep-title{
+  opacity: 0;
 }
-.dep-title {
+.web-show .dep-title,
+.back-end-show .dep-title,
+.product-show .dep-title,
+.robot-show .dep-title,
+.android-show .dep-title {
   animation: dep-title 1s forwards;
   animation-delay: 0.2s;
 }
+.dep-content-left{
+  transform: translateX(200px);
+}
+.dep-content-right{
+  transform: translateX(-200px);
+}
+
+.web-show .dep-content-left, 
+.product-show .dep-content-left, 
+.android-show .dep-content-left
+{
+  animation: dep-content-left 1s forwards;
+  animation-delay: 0.2s;
+}
+
+.back-end-show .dep-content-right, 
+.robot-show .dep-content-right
+{
+  animation: dep-content-right 1s forwards;
+  animation-delay: 0.2s;
+}
+
 /* 关于andorid头部名称换行 */
 .android .dep-content {
   text-indent: 0;
 }
 .android .dep-title p {
+  display: block;
+  width: 56px;
+  margin: 0 auto;
+  line-height: 18px;
+  margin-top: 30px;
+}
+.android-show .dep-content {
+  text-indent: 0;
+}
+.android-show .dep-title p {
   display: block;
   width: 56px;
   margin: 0 auto;

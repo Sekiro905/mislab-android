@@ -7,7 +7,7 @@ export default class Product extends Component {
 
     return (
       <div className={`${productTheme} item`}>
-        <div className='product-img-outer'><img alt='产品介绍图片' src={require(`../../assets/${this.props.productTheme}.png`)}></img></div>
+        <div className='product-img-outer'><img alt='产品介绍图片' src={require(`../../assets/${this.props.src}.png`)}></img></div>
         <div className='product-more-outer'>
             <div className='product-title' children={`${title}`}></div>
             <div className={`${supplementClass} product-supplement`} children={`${supplement}`}></div>

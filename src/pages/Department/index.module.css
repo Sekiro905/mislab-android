@@ -7,6 +7,8 @@
   height: 100%;
   min-height: 669px;
   min-width: 387px;
+  max-width: 387px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -33,9 +35,9 @@
   min-width: 387px;
 }
 .line-back {
-  width: 100%;
   margin-top: 30px;
   position: absolute;
+  z-index: -1;
   min-width: 387px;
 }
 .line-box {
@@ -76,7 +78,7 @@
 .depart-back {
   padding-top: 115px;
 }
-
+.depart-
 /* 底部图片 */
 .footer {
   width: 100%;

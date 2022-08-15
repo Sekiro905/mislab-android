@@ -7,6 +7,7 @@ import styles from "./index.module.css";
 
 export default class Member extends Component {
   render() {
+    const {stateMember}=this.props
     return (
       <div className="member-wrapper">
         <div className={styles.back}>
@@ -17,7 +18,7 @@ export default class Member extends Component {
           {/* 弹幕区域 */}
           <div className={styles.content}>
             {/* 左侧 */}
-            <div className={styles["member-left"]}>
+            <div className={stateMember?styles["member-left-show"]:styles["member-left"]}>
               {leftMember.map((item) => {
                 return (
                   <div key={item.name} className={styles.left}>
@@ -27,7 +28,7 @@ export default class Member extends Component {
               })}
             </div>
             {/* 右侧 */}
-            <div className={styles["member-right"]}>
+            <div className={stateMember?styles["member-right-show"]:styles["member-right"]}>
               {rightMember.map((item) => {
                 return (
                   <div key={item.name} className={styles.right}>

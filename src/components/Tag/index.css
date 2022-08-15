@@ -1,185 +1,234 @@
 /* "关于我们"图片周围的标签 */
 .tag {
-    display: inline-block;
-    height: 20px;
-    padding: 5px 5px;
-    border: 1px solid rgb(199, 228, 234);
-    border-radius: 7px;
-    line-height: 20px;
-    background-color: rgb(199, 228, 234);
+  display: inline-block;
+  height: 20px;
+  padding: 5px 5px;
+  border: 1px solid rgb(199, 228, 234);
+  border-radius: 7px;
+  line-height: 20px;
+  background-color: rgb(199, 228, 234);
 }
-
-.cx {
-    position: absolute;
-    left: 150px;
-    bottom: 70px;
-    animation-name: cxmove,float;
-    animation-duration: 1s,.5s;
-    animation-delay: 0s, 1.1s;
-    animation-timing-function: linear,linear;
-    animation-iteration-count: 1,infinite;
-    animation-fill-mode: forwards,forwards;
-    animation-direction: normal,alternate-reverse;
-}
-
-.nq {
-    position: absolute;
-    left: 150px;
-    bottom: 70px;
-    animation-name: nqmove,float;
-    animation-duration: 1s,.86s;
-    animation-delay: 0s, 1.1s;
-    animation-timing-function: linear,linear;
-    animation-iteration-count: 1,infinite;
-    animation-fill-mode: forwards,forwards;
-    animation-direction: normal,alternate-reverse;
-}
-
-.zh {
-    position: absolute;
-    left: 150px;
-    bottom: 70px;
-    animation-name: zhmove,float;
-    animation-duration: 1s,.6s;
-    animation-delay: 0s, 1.1s;
-    animation-timing-function: linear,linear;
-    animation-iteration-count: 1,infinite;
-    animation-fill-mode: forwards,forwards;
-    animation-direction: normal,alternate-reverse;
-
-}
-
-.fx {
-    position: absolute;
-    left: 150px;
-    bottom: 70px;
-    animation-name: fxmove,float;
-    animation-duration: 1s,.7s;
-    animation-delay: 0s, 1.1s;
-    animation-timing-function: linear,linear;
-    animation-iteration-count: 1,infinite;
-    animation-fill-mode: forwards,forwards;
-    animation-direction: normal,alternate-reverse;
-
-}
-
-.hk {
-    position: absolute;
-    left: 150px;
-    bottom: 70px;
-    animation-name: hkmove,float;
-    animation-duration: 1s,1.4s;
-    animation-delay: 0s, 1.1s;
-    animation-timing-function: linear,linear;
-    animation-iteration-count: 1,infinite;
-    animation-fill-mode: forwards,forwards;
-    animation-direction: normal,alternate-reverse;
-
-}
-
-.bm {
-    position: absolute;
-    left: 150px;
-    bottom: 70px;
-    animation-name: bmmove,float;
-    animation-duration: 1s,1.2s;
-    animation-delay: 0s, 1.1s;
-    animation-timing-function: linear,linear;
-    animation-iteration-count: 1,infinite;
-    animation-fill-mode: forwards,forwards;
-    animation-direction: normal,alternate-reverse;
-
-}
-
-.rc {
-    position: absolute;
-    left: 150px;
-    bottom: 70px;
-    animation-name: rcmove,float;
-    animation-duration: 1s,.8s;
-    animation-delay: 0s, 1.1s;
-    animation-timing-function: linear,linear;
-    animation-iteration-count: 1,infinite;
-    animation-fill-mode: forwards,forwards;
-    animation-direction: normal,alternate-reverse;
-}
-
+.cx,
+.nq,
+.zh,
+.fx,
+.hk,
+.bm,
+.rc,
 .js {
-    position: absolute;
-    left: 150px;
-    bottom: 70px;
-    animation-name: jsmove,float;
-    animation-duration: 1s,.9s;
-    animation-delay: 0s, 1.1s;
-    animation-timing-function: linear,linear;
-    animation-iteration-count: 1,infinite;
-    animation-fill-mode: forwards,forwards;
-    animation-direction: normal,alternate-reverse;
+  position: absolute;
+  left: 150px;
+  bottom: 70px;
+  opacity: 0;
+}
+
+.cx-show {
+  position: absolute;
+  left: 150px;
+  bottom: 70px;
+  opacity: 0;
+  animation-name: cxmove, float;
+  animation-duration: 1s, 0.5s;
+  animation-delay: 0s, 1.1s;
+  animation-timing-function: linear, linear;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards, forwards;
+  animation-direction: normal, alternate-reverse;
+}
+
+.nq-show {
+  position: absolute;
+  left: 150px;
+  bottom: 70px;
+  opacity: 0;
+  animation-name: nqmove, float;
+  animation-duration: 1s, 0.86s;
+  animation-delay: 0s, 1.1s;
+  animation-timing-function: linear, linear;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards, forwards;
+  animation-direction: normal, alternate-reverse;
+}
+
+.zh-show {
+  position: absolute;
+  left: 150px;
+  bottom: 70px;
+  opacity: 0;
+  animation-name: zhmove, float;
+  animation-duration: 1s, 0.6s;
+  animation-delay: 0s, 1.1s;
+  animation-timing-function: linear, linear;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards, forwards;
+  animation-direction: normal, alternate-reverse;
+}
+
+.fx-show {
+  position: absolute;
+  left: 150px;
+  bottom: 70px;
+  opacity: 0;
+  animation-name: fxmove, float;
+  animation-duration: 1s, 0.7s;
+  animation-delay: 0s, 1.1s;
+  animation-timing-function: linear, linear;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards, forwards;
+  animation-direction: normal, alternate-reverse;
+}
+
+.hk-show {
+  position: absolute;
+  left: 150px;
+  bottom: 70px;
+  opacity: 0;
+  animation-name: hkmove, float;
+  animation-duration: 1s, 1.4s;
+  animation-delay: 0s, 1.1s;
+  animation-timing-function: linear, linear;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards, forwards;
+  animation-direction: normal, alternate-reverse;
+}
+
+.bm-show {
+  position: absolute;
+  left: 150px;
+  bottom: 70px;
+  opacity: 0;
+  animation-name: bmmove, float;
+  animation-duration: 1s, 1.2s;
+  animation-delay: 0s, 1.1s;
+  animation-timing-function: linear, linear;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards, forwards;
+  animation-direction: normal, alternate-reverse;
+}
+
+.rc-show {
+  position: absolute;
+  left: 150px;
+  bottom: 70px;
+  opacity: 0;
+  animation-name: rcmove, float;
+  animation-duration: 1s, 0.8s;
+  animation-delay: 0s, 1.1s;
+  animation-timing-function: linear, linear;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards, forwards;
+  animation-direction: normal, alternate-reverse;
+}
+
+.js-show {
+  position: absolute;
+  left: 150px;
+  bottom: 70px;
+  opacity: 0;
+  animation-name: jsmove, float;
+  animation-duration: 1s, 0.9s;
+  animation-delay: 0s, 1.1s;
+  animation-timing-function: linear, linear;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards, forwards;
+  animation-direction: normal, alternate-reverse;
 }
 
 /* 标签浮动 */
 @keyframes float {
-    from {
-        transform: translatey(-4px);
-    }
-    to {
-        transform: translatey(4px);
-    }
+  from {
+    transform: translatey(-4px);
+  }
+  to {
+    transform: translatey(4px);
+  }
 }
 
 /* 标签爆炸 */
 @keyframes cxmove {
-    100%{
-        bottom: 105px;
-        left: 5px;
-    }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    bottom: 105px;
+    left: 5px;
+  }
 }
 
 @keyframes nqmove {
-    100%{
-        bottom: 90px;
-        left: 110px;
-    }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    bottom: 90px;
+    left: 110px;
+  }
 }
 
 @keyframes zhmove {
-    100%{
-        bottom: 100px;
-        left: 235px;
-    }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    bottom: 100px;
+    left: 235px;
+  }
 }
 
 @keyframes fxmove {
-    100%{
-        bottom: 105px;
-        left: 326px;
-    }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    bottom: 105px;
+    left: 326px;
+  }
 }
 
 @keyframes hkmove {
-    100%{
-        bottom: 30px;
-        left: 1px;
-    }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    bottom: 30px;
+    left: 1px;
+  }
 }
 
 @keyframes bmmove {
-    100%{
-        bottom: 50px;
-        left: 150px;
-    }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    bottom: 50px;
+    left: 150px;
+  }
 }
 
 @keyframes rcmove {
-    100%{
-        bottom: 15px;
-        left: 235px;
-    }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    bottom: 15px;
+    left: 235px;
+  }
 }
 
 @keyframes jsmove {
-    100%{
-        bottom: 55px;
-        left: 310px;
-    }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    bottom: 55px;
+    left: 310px;
+  }
 }

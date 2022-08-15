@@ -5,6 +5,8 @@ import Tag from "../../components/Tag";
 
 export default class Us extends Component {
   render() {
+    const {stateUs}=this.props
+
     return (
       <div className="us-wrapper">
         <div className={styles.back}>
@@ -23,14 +25,14 @@ export default class Us extends Component {
             </div>
             <div className={styles["us-pic-outer"]}>
               <img alt="关于我们图片" src={require('../../assets/us.png')}></img>
-              <Tag tag='创新' className='cx' />
-              <Tag tag='年轻' className='nq' />
-              <Tag tag='周会' className='zh' />
-              <Tag tag='分享日' className='fx' />
-              <Tag tag='黑客马拉松文化周' className='hk' />
-              <Tag tag='百名工程师' className='bm' />
-              <Tag tag='人才培养' className='rc' />
-              <Tag tag='技术应用' className='js' />
+              <Tag tag='创新' className={stateUs?'cx-show':'cx'} />
+              <Tag tag='年轻' className={stateUs?'nq-show':'nq'} />
+              <Tag tag='周会' className={stateUs?'zh-show':'zh'} />
+              <Tag tag='分享日' className={stateUs?'fx-show':'fx'} />
+              <Tag tag='黑客马拉松文化周' className={stateUs?'hk-show':'hk'} />
+              <Tag tag='百名工程师' className={stateUs?'bm-show':'bm'} />
+              <Tag tag='人才培养' className={stateUs?'rc-show':'rc'} />
+              <Tag tag='技术应用' className={stateUs?'js-show':'js'} />
             </div>
           </div>
         </div>

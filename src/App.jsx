@@ -1,24 +1,16 @@
 import React, { Component } from "react";
-import Homepage from "./pages/Homepage";
-import Products from "./pages/Products";
-import Team from "./pages/Team";
-import Us from "./pages/Us";
-import Department from "./pages/Department";
-import Member from "./pages/Member";
-import Invatation from "./pages/Invatation";
-import './App.css'
+import { Route, Switch, Redirect } from "react-router-dom";
+import Home from "./pages/Home";
+import "./App.css";
 
 export default class App extends Component {
   render() {
     return (
       <>
-        <Homepage />
-        <Team />
-        <Us />
-        <Products />
-        <Department />
-        <Member />
-        <Invatation />
+        <Switch>
+          <Route path="/" component={Home} />
+          <Redirect to="/" />
+        </Switch>
       </>
     );
   }
