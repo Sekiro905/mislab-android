@@ -38,7 +38,7 @@
   top: 80px;
   left: 50%;
   transform: translate(-50%);
-  border: 1px solid rgb(125, 125, 125);
+  background-color: rgb(242, 242, 242);
   border-radius: 29px;
 }
 
@@ -46,6 +46,7 @@
   width: 304px;
   height: 217px;
   margin: 45px auto;
+  text-align: justify;
 }
 
 .team-intro {
