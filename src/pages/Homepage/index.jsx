@@ -22,7 +22,7 @@ export default class Homepage extends Component {
                 <span className={styles.slogan1}>和优秀的人</span>
                 <span className={styles.slogan2}>做有挑战的事</span>
                 <div className={styles["slogan3-outer"]}>
-                  <span className={styles.slogan3}>join mislab</span>
+                  <span className={styles.slogan3}>JOIN MISLAB</span>
                 </div>
               </div>
             </div>

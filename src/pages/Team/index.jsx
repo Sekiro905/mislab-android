@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import { Element } from "react-scroll";
 import styles from './index.module.css'
 
 export default class Team extends Component {
   render() {
     return (
+      <Element name="Us">
       <div className='team-intro-wrapper'>
         <div className={styles.back}>
           <div className={styles.head}>
@@ -25,6 +27,7 @@ export default class Team extends Component {
           </div>
         </div>
       </div>
+      </Element>
     )
   }
 }

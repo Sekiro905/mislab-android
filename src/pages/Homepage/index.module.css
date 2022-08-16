@@ -30,7 +30,7 @@
 
 .homepage-title2 {
   display: block;
-  font-size: 32px;
+  font-size: 23px;
   font-weight: bold;
 }
 
@@ -103,8 +103,8 @@
   border-radius: 50%;
   background-color: #d8d4d4;
   position: absolute;
-  top: 50%;
-  left: -30px;
+  top: 15px;
+  left: -24px;
 }
 
 .slogan3-outer::after {
@@ -114,17 +114,22 @@
   border-radius: 50%;
   background-color: #d8d4d4;
   position: absolute;
-  top: 50%;
-  right: -20px;
+  top: 15px;
+  right: -27px;
 }
 
 .slogan3 {
+  width: 224px;
   font-family: "negreta";
-  font-size: 18px;
+  font-size: 14px;
   color: rgb(127, 127, 127);
   letter-spacing: 11.7px;
   font-weight: bold;
   display: block;
+  text-align: center;
+  position: absolute;
+  left: 44px;
+  top: 7px;
 }
 
 .foot-plane-outer {
