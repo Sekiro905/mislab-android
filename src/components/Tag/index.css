@@ -152,8 +152,8 @@
   }
   100% {
     opacity: 1;
-    bottom: 105px;
-    left: 5px;
+    bottom: 51%;
+    left: 1%;
   }
 }
 
@@ -163,8 +163,8 @@
   }
   100% {
     opacity: 1;
-    bottom: 90px;
-    left: 110px;
+    bottom: 46%;
+    left:25%;
   }
 }
 
@@ -174,8 +174,8 @@
   }
   100% {
     opacity: 1;
-    bottom: 100px;
-    left: 235px;
+    bottom: 52%;
+    left: 60%;
   }
 }
 
@@ -185,8 +185,8 @@
   }
   100% {
     opacity: 1;
-    bottom: 105px;
-    left: 315px;
+    bottom: 50%;
+    left: 80%;
   }
 }
 
@@ -196,7 +196,7 @@
   }
   100% {
     opacity: 1;
-    bottom: 30px;
+    bottom: 15%;
     left: 1px;
   }
 }
@@ -207,8 +207,8 @@
   }
   100% {
     opacity: 1;
-    bottom: 50px;
-    left: 150px;
+    bottom: 25%;
+    left: 40%;
   }
 }
 
@@ -218,8 +218,8 @@
   }
   100% {
     opacity: 1;
-    bottom: 15px;
-    left: 235px;
+    bottom: 8%;
+    left: 75%;
   }
 }
 
@@ -229,7 +229,7 @@
   }
   100% {
     opacity: 1;
-    bottom: 55px;
-    left: 300px;
+    bottom: 27%;
+    left: 70%;
   }
 }
