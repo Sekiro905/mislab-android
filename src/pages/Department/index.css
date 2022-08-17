@@ -11,6 +11,7 @@
 @keyframes dep-content-left {
   0% {
     transform: translateX(300px);
+    opacity: 0;
   }
   75% {
     transform: translateX(-10px);
@@ -20,12 +21,14 @@
   }
   100% {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 /* 部门头部名称在右侧的介绍 */
 @keyframes dep-content-right {
   0% {
     transform: translateX(-300px);
+    opacity: 0;
   }
   75% {
     transform: translateX(10px);
@@ -35,6 +38,7 @@
   }
   100% {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -57,10 +61,10 @@
   animation-delay: 0.2s;
 }
 .dep-content-left{
-  transform: translateX(200px);
+  opacity: 0;
 }
 .dep-content-right{
-  transform: translateX(-200px);
+  opacity: 0;
 }
 
 .web-show .dep-content-left, 

@@ -30,12 +30,12 @@
 .content {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 100%;
+  max-width: 480px;
   height: 402px;
-  margin: 0 auto ;
-  margin-top: 40px;
-  border: rgb(215, 215, 215) solid 1px;
-  border-radius: 60px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 30px;
   overflow: hidden;
   position: relative;
 }
@@ -45,7 +45,7 @@
     opacity: 0;
   }
   50% {
-    transform: translateX(471px);
+    transform: translateX(665px);
     opacity: 1;
   }
   100% {
@@ -59,7 +59,7 @@
     opacity: 0;
   }
   50% {
-    transform: translateX(-458px);
+    transform: translateX(-665px);
     opacity: 1;
   }
   100% {
@@ -70,32 +70,31 @@
 .member-left,
 .member-right,
 .member-left-show,
-.member-right-show
-{
-  width: 170px;
+.member-right-show {
+  width: 185px;
   height: 402px;
   font-size: 15px;
   position: absolute;
 }
 .member-left,
-.member-left-show
-{
-  left: -170px;
+.member-left-show {
+  right: 100%;
   text-align: center;
 }
 .member-right,
-.member-right-show
-{
-  right: -170px;
+.member-right-show {
+  left: 100%;
   text-align: center;
 }
 .left {
+  white-space: nowrap;
   height: 17px;
-  width: 170px;
+  width: 100%;
 }
 .right {
+  white-space: nowrap;
   height: 17px;
-  width: 150px;
+  width: 100%;
 }
 
 /* 左边的member */
@@ -164,7 +163,7 @@
   animation-delay: 0.2s;
 }
 .member-left-show div:nth-child(17) {
-  animation: member-member-left 10s linear infinite;
+  animation: member-member-left 8.5s linear infinite;
   animation-delay: 0.2s;
 }
 .member-left-show div:nth-child(18) {
@@ -184,7 +183,7 @@
   animation-delay: 0.2s;
 }
 .member-left-show div:nth-child(22) {
-  animation: member-member-left 13s linear infinite;
+  animation: member-member-left 11.8s linear infinite;
   animation-delay: 0.2s;
 }
 .member-left-show div:nth-child(23) {
@@ -214,11 +213,11 @@
   animation-delay: 0.2s;
 }
 .member-right-show div:nth-child(6) {
-  animation: member-member-right 15s linear infinite;
+  animation: member-member-right 15.2s linear infinite;
   animation-delay: 0.2s;
 }
 .member-right-show div:nth-child(7) {
-  animation: member-member-right 17s linear infinite;
+  animation: member-member-right 14.6s linear infinite;
   animation-delay: 0.2s;
 }
 .member-right-show div:nth-child(8) {
@@ -270,11 +269,11 @@
   animation-delay: 0.2s;
 }
 .member-right-show div:nth-child(20) {
-  animation: member-member-right 16.5s linear infinite;
+  animation: member-member-right 15.5s linear infinite;
   animation-delay: 0.2s;
 }
 .member-right-show div:nth-child(21) {
-  animation: member-member-right 19s linear infinite;
+  animation: member-member-right 17.3s linear infinite;
   animation-delay: 0.2s;
 }
 .member-right-show div:nth-child(22) {
@@ -282,7 +281,7 @@
   animation-delay: 0.2s;
 }
 .member-right-show div:nth-child(23) {
-  animation: member-member-right 15.5s linear infinite;
+  animation: member-member-right 10.5s linear infinite;
   animation-delay: 0.2s;
 }
 

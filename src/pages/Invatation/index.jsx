@@ -58,27 +58,15 @@ export default class Invatation extends Component {
               </div>
             </div>
             <div className={styles.middle}>
+              <span>想和优秀的你&nbsp;&nbsp;&nbsp;一起改变世界</span>
+            </div>
+            <div className={styles.down}>
               <img
-                className={styles["middle-img"]}
+                className={styles["down-img"]}
                 src={require("../../assets/jiaru.png")}
                 alt="图片加载失败."
               />
-              <a href="#" className={styles.link}></a>
-            </div>
-            <div className={styles.down}>
-              <span>想和优秀的你&nbsp;&nbsp;&nbsp;一起改变世界</span>
-            </div>
-          </div>
-          {/* 报名加入链接 */}
-          <div className={styles.footer}>
-            <div className={styles["footer-button"]}>
-              <a href="#">报名投递</a>
-            </div>
-            <div className={styles["footer-button"]}>
-              <a href="#">学院系统</a>
-            </div>
-            <div className={styles["footer-button"]}>
-              <a href="#">报名投递</a>
+              <a href="https://jq.qq.com/?_wv=1027&k=NNPyqnRr" className={styles.link}></a>
             </div>
           </div>
         </div>
