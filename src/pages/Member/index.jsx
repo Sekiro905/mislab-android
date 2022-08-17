@@ -7,7 +7,7 @@ import styles from "./index.module.css";
 
 export default class Member extends Component {
   render() {
-    const {stateMember}=this.props
+    const { stateMember } = this.props;
     return (
       <div className="member-wrapper">
         <div className={styles.back}>
@@ -15,10 +15,22 @@ export default class Member extends Component {
           <div className={styles.head}>
             <div className={styles.tittle}>可能的未来</div>
           </div>
+          {/* 底部图片 */}
+          <div className={styles.footer}>
+            <img
+              className={styles["footer-img"]}
+              src={require("../../assets/member-footer.png")}
+              alt="图片加载失败."
+            />
+          </div>
           {/* 弹幕区域 */}
           <div className={styles.content}>
             {/* 左侧 */}
-            <div className={stateMember?styles["member-left-show"]:styles["member-left"]}>
+            <div
+              className={
+                stateMember ? styles["member-left-show"] : styles["member-left"]
+              }
+            >
               {leftMember.map((item) => {
                 return (
                   <div key={item.name} className={styles.left}>
@@ -28,7 +40,13 @@ export default class Member extends Component {
               })}
             </div>
             {/* 右侧 */}
-            <div className={stateMember?styles["member-right-show"]:styles["member-right"]}>
+            <div
+              className={
+                stateMember
+                  ? styles["member-right-show"]
+                  : styles["member-right"]
+              }
+            >
               {rightMember.map((item) => {
                 return (
                   <div key={item.name} className={styles.right}>
@@ -37,14 +55,6 @@ export default class Member extends Component {
                 );
               })}
             </div>
-          </div>
-          {/* 底部图片 */}
-          <div className={styles.footer}>
-            <img
-              className={styles["footer-img"]}
-              src={require("../../assets/member-footer.png")}
-              alt="图片加载失败."
-            />
           </div>
         </div>
       </div>

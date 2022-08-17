@@ -5,10 +5,10 @@
 .back {
   width: 100%;
   height: 100%;
-  min-height: 669px;
   min-width: 387px;
   max-width: 387px;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 /* 头部 */
 .head {
@@ -69,13 +69,28 @@
   /* line-height: 130px; */
 }
 /* 中 */
+@font-face {
+  font-family: "joinus";
+  src: url("../../static/joinus.ttf");
+}
 .middle {
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  line-height: 130px;
+  font-family: "joinus";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+}
+/* 下 */
+.down {
   width: 100%;
   height: 130px;
   padding-top: 40px;
   position: relative;
 }
-.middle-img {
+.down-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -92,50 +107,4 @@
   margin: 0 auto;
   width: 260px;
   height: 110px;
-}
-/* 下 */
-.down {
-  width: 100%;
-  height: 130px;
-  text-align: center;
-  line-height: 130px;
-  font-family: "Arial Negreta", "Arial Normal", "Arial";
-  font-weight: 700;
-  font-style: normal;
-  font-size: 25px;
-}
-
-/* 底部 */
-.footer {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 106px;
-  min-width: 387px;
-  margin-bottom: 20px;
-}
-.footer-button {
-  width: 90px;
-  height: 43px;
-  margin: auto 0;
-  border: rgb(121, 121, 121) solid 1px;
-  border-radius: 11px;
-  background-color: rgb(214, 237, 238);
-  font-size: 12px;
-  text-align: center;
-  line-height: 43px;
-}
-.footer-button > a {
-  color: black;
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-}
-.footer-button > a:link {
-  color: black;
-}
-.footer-button > a:a:visited {
-  color: #fff;
-}
-.footer-button > a:active {
-  color: rgb(49, 109, 228);
 }
