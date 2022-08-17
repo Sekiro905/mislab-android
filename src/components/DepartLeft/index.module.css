@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   height: 181px;
-  min-width: 387px;
   margin: -40px auto 0;
 }
 .dep-title {
@@ -18,6 +17,7 @@
   color: rgb(2, 167, 240);
   text-align: center;
   line-height: 92px;
+  overflow: hidden;
 }
 .dep-content p {
   margin-top: 25px;
@@ -25,6 +25,7 @@
 .dep-content {
   width: 177px;
   height: 144px;
+  min-width: 177Px;/* px-to-viewport-ignore */
   margin: auto 0;
   padding: 2px 6px 2px 6px;
   padding: auto 0;
@@ -36,4 +37,8 @@
   font-size: 12px;
   letter-spacing: normal;
   text-indent: 2em;
+  overflow: scroll;
+}
+::-webkit-scrollbar{
+  display: none;
 }
