@@ -95,14 +95,19 @@ export default class Us extends Component {
                 alt="关于我们图片"
                 src={require("../../assets/us.png")}
               ></img>
+            </div>
+            <div className={styles["us-tag-outer"]}>
               <Tag tag="创新" className={stateUs ? "cx-show" : "cx"} />
               <Tag tag="年轻" className={stateUs ? "nq-show" : "nq"} />
               <Tag tag="周会" className={stateUs ? "zh-show" : "zh"} />
-              <Tag tag="分享日" className={stateUs ? "fx-show" : "fx"} />
-              <Tag tag="黑客马拉松文化周" className={stateUs ? "hk-show" : "hk"} />
+              <Tag tag="分享" className={stateUs ? "fx-show" : "fx"} />
+              <Tag
+                tag="黑客马拉松文化周"
+                className={stateUs ? "hk-show" : "hk"}
+              />
               <Tag tag="百名工程师" className={stateUs ? "bm-show" : "bm"} />
               <Tag tag="人才培养" className={stateUs ? "rc-show" : "rc"} />
-              <Tag tag="技术应用" className={stateUs ? "js-show" : "js"} />
+              <Tag tag="技术日" className={stateUs ? "js-show" : "js"} />
             </div>
           </div>
         </div>
