@@ -15,14 +15,7 @@ export default class Member extends Component {
           <div className={styles.head}>
             <div className={styles.tittle}>可能的未来</div>
           </div>
-          {/* 底部图片 */}
-          <div className={styles.footer}>
-            <img
-              className={styles["footer-img"]}
-              src={require("../../assets/member-footer.png")}
-              alt="图片加载失败."
-            />
-          </div>
+
           {/* 弹幕区域 */}
           <div className={styles.content}>
             {/* 左侧 */}
@@ -55,6 +48,14 @@ export default class Member extends Component {
                 );
               })}
             </div>
+          </div>
+          {/* 底部图片 */}
+          <div className={styles.footer}>
+            <img
+              className={styles["footer-img"]}
+              src={require("../../assets/member-footer.png")}
+              alt="图片加载失败."
+            />
           </div>
         </div>
       </div>

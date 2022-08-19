@@ -36,6 +36,7 @@ export default class Home extends Component {
     };
     window.onscroll = () => {
       // 关于我们
+      console.log(document.documentElement.scrollTop);
       if (document.documentElement.scrollTop >= 1250) {
         this.setState({ stateUs: true });
       }
