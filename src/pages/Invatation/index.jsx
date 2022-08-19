@@ -57,9 +57,6 @@ export default class Invatation extends Component {
                 <span>12月中旬—长期</span>
               </div>
             </div>
-            <div className={styles.middle}>
-              <span>想和优秀的你&nbsp;&nbsp;一起改变世界</span>
-            </div>
             <div className={styles.down}>
               <img
                 className={styles["down-img"]}
@@ -67,6 +64,9 @@ export default class Invatation extends Component {
                 alt="图片加载失败."
               />
               <a href="https://jq.qq.com/?_wv=1027&k=NNPyqnRr" className={styles.link}></a>
+            </div>
+            <div className={styles.middle}>
+              <span>想和优秀的你&nbsp;&nbsp;一起改变世界</span>
             </div>
           </div>
         </div>
