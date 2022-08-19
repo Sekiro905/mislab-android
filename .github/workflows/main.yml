@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "frontEnd" branch
   push:
-    branches: [ "deploy" ]
+    branches: [ "master" ]
 
 # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -30,7 +30,7 @@ jobs:
       - name: npm install and build
         run: |
           npm install
-          npm run docs:build
+          npm run build
         env:
           CI: false
 
