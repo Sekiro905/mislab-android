@@ -58,7 +58,7 @@ export default class Invatation extends Component {
               </div>
             </div>
             <div className={styles.middle}>
-              <span>想和优秀的你&nbsp;&nbsp;&nbsp;一起改变世界</span>
+              <span>想和优秀的你&nbsp;&nbsp;一起改变世界</span>
             </div>
             <div className={styles.down}>
               <img
