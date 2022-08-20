@@ -5,7 +5,7 @@
 .back {
   width: 100vw;
   height: 100%;
-  min-width: 387Px;/* px-to-viewport-ignore */
+  min-width: 370Px;/* px-to-viewport-ignore */
   margin: 0 auto;
   margin-bottom: 40px;
 }
@@ -28,7 +28,7 @@
 .content {
   width: 100%;
   height: 100%;
-  min-width: 387Px;/* px-to-viewport-ignore */
+  min-width: 370Px;/* px-to-viewport-ignore */
 }
 /* 上 */
 .top {
@@ -66,7 +66,6 @@
   width: 21px;
   text-align: center;
   font-size: 60px;
-  /* line-height: 130px; */
 }
 /* 中 */
 @font-face {
