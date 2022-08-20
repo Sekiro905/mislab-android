@@ -5,7 +5,7 @@ import styles from './index.module.css'
 export default class Team extends Component {
   render() {
     return (
-      <Element name="Us">
+      <Element name="Team">
       <div className='team-intro-wrapper'>
         <div className={styles.back}>
           <div className={styles.head}>
