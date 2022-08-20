@@ -134,14 +134,14 @@
 
 .foot-plane-outer {
   position: absolute;
-  top: 520px;
-  left: 135px;
+  top: 565px;
+  left: 145px;
   animation: float 1s 0.14s linear forwards infinite alternate;
   cursor: pointer;
 }
 
 .foot-plane-outer img {
-  width: 100%;
+  width: 35vw;
 }
 
 /* 飞机浮动 */

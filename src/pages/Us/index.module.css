@@ -49,6 +49,10 @@
   transform: translate(-50%,-50%) rotate(-5deg);
 }
 
+.pic1 img {
+  width: 110px;
+}
+
 .pic2 {
   position: absolute;
   left: 80px;
@@ -56,11 +60,19 @@
   transform: translate(-50%,-50%) rotate(5deg);
 }
 
+.pic2 img {
+  width: 85px;
+}
+
 .pic3 {
   position: absolute;
   left: 220px;
-  top: 50px;
+  top: 55px;
   transform: translate(-50%,-50%) rotate(-4deg);
+}
+
+.pic3 img {
+  width: 125px;
 }
 
 .pic4 {
@@ -70,11 +82,19 @@
   transform: translate(-50%,-50%) rotate(-10deg);
 }
 
+.pic4 img {
+  width: 115px;
+}
+
 .pic5 {
   position: absolute;
   right: 10px;
   bottom: 15px;
   transform: translate(-50%,-50%) rotate(33deg);
+}
+
+.pic5 img {
+  width: 90px;
 }
 
 .pic6 {
@@ -84,11 +104,19 @@
   transform: translate(-50%,-50%) rotate(4deg);
 }
 
+.pic6 img {
+  width: 95px;
+}
+
 .pic7 {
   position: absolute;
   left: 60px;
   bottom: 60px;
   transform: translate(-50%,-50%) rotate(20deg);
+}
+
+.pic7 img {
+  width: 75px;
 }
 
 .pic8 {
@@ -98,11 +126,19 @@
   transform: translate(-50%,-50%) rotate(-20deg);
 }
 
+.pic8 img {
+  width: 100px;
+}
+
 .pic9 {
   position: absolute;
   left: 290px;
   bottom: 100px;
   transform: translate(-50%,-50%) rotate(10deg);
+}
+
+.pic9 img {
+  width: 70px;
 }
 
 .us-pic-outer {
