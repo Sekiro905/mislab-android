@@ -27,7 +27,7 @@ export default class Homepage extends Component {
               </div>
             </div>
             <Link
-            to="Us"
+            to="Team"
             smooth={true}
             duration={500}
             spy={true}
