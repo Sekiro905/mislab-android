@@ -55,6 +55,12 @@ export default class Us extends Component {
               <div className={styles.pic12}>
                 <img alt="学长学姐" src={require("../../assets/pic13.jpg")} />
               </div>
+              <div className={styles.pic13}>
+                <img alt="学长学姐" src={require("../../assets/pic14.jpg")} />
+              </div>
+              <div className={styles.pic14}>
+                <img alt="学长学姐" src={require("../../assets/pic15.jpg")} />
+              </div>
             </div>
             <div className={styles["us-pic-outer"]}>
               <img
