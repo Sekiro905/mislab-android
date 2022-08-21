@@ -65,7 +65,7 @@
   border-radius: 50%;
   position: absolute;
   top: 57%;
-  left: 70%;
+  left: 73%;
   box-shadow: 5px -15px 8px #888888;
   animation: cir-tb-move 2s ease-in forwards infinite alternate;
 }
