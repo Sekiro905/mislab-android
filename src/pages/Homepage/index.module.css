@@ -22,21 +22,21 @@
 
 .homepage-title1 {
   display: block;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   letter-spacing: 5px;
 }
 
 .homepage-title2 {
   display: block;
-  font-size: 23px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .right-graphic1-outer {
   width: 320px;
   height: 250px;
-  background-color: #fff;
+  background-color: #b1d8b4;
   animation: tri-lr-move 5s ease-in-out forwards infinite alternate;
   position: absolute;
   top: -21%;
@@ -47,7 +47,7 @@
 .left-graphic-outer {
   width: 200px;
   height: 200px;
-  background-color: #fff;
+  background-color: #ebeff9;
   border-radius: 50%;
   position: absolute;
   top: 25%;
@@ -59,11 +59,11 @@
 .right-graphic2-outer {
   width: 100px;
   height: 100px;
-  background-color: #fff;
+  background-color: rgb(217,217,217);
   border-radius: 50%;
   position: absolute;
-  top: 55%;
-  left: 65%;
+  top: 57%;
+  left: 70%;
   box-shadow: 5px -15px 8px #888888;
   animation: cir-tb-move 2s ease-in forwards infinite alternate;
 }
@@ -146,10 +146,10 @@
 /* 飞机浮动 */
 @keyframes float {
   from {
-    transform: translateX(-4px);
+    transform: translateX(-8px) skewY(-4deg);
   }
   to {
-    transform: translateY(4px);
+    transform: translateY(8px) skewY(4deg);
   }
 }
 
