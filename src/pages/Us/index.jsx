@@ -46,6 +46,15 @@ export default class Us extends Component {
               <div className={styles.pic9}>
                 <img alt="学长学姐" src={require("../../assets/pic10.jpg")} />
               </div>
+              <div className={styles.pic10}>
+                <img alt="学长学姐" src={require("../../assets/pic11.jpg")} />
+              </div>
+              <div className={styles.pic11}>
+                <img alt="学长学姐" src={require("../../assets/pic12.jpg")} />
+              </div>
+              <div className={styles.pic12}>
+                <img alt="学长学姐" src={require("../../assets/pic13.jpg")} />
+              </div>
             </div>
             <div className={styles["us-pic-outer"]}>
               <img
@@ -64,7 +73,7 @@ export default class Us extends Component {
               />
               <Tag tag="百名工程师" className={stateUs ? "bm-show" : "bm"} />
               <Tag tag="人才培养" className={stateUs ? "rc-show" : "rc"} />
-              <Tag tag="技术日" className={stateUs ? "js-show" : "js"} />
+              <Tag tag="技术" className={stateUs ? "js-show" : "js"} />
             </div>
           </div>
         </div>
