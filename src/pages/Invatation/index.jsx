@@ -66,7 +66,7 @@ export default class Invatation extends Component {
               <a href="https://jq.qq.com/?_wv=1027&k=NNPyqnRr" className={styles.link}></a>
             </div>
             <div className={styles.middle}>
-              <i className={styles.middle_before_i}></i>
+              {/* <i className={styles.middle_before_i}></i> */}
               <span>想和优秀的你&nbsp;&nbsp;一起改变世界</span>
               <i className={styles.middle_after_i}></i>
             </div>
