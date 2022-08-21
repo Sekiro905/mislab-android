@@ -20,9 +20,12 @@
   overflow: hidden;
 }
 .dep-content p {
-  margin-top: 25px;
+  width: 100%;
 }
 .dep-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 177px;
   height: 144px;
   min-width: 177Px;/* px-to-viewport-ignore */
