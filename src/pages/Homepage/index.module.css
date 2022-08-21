@@ -39,7 +39,7 @@
 .right-graphic1-outer {
   width: 320px;
   height: 250px;
-  background-color: #efebf9;
+  background-color: #ebebf9;
   animation: tri-lr-move 4s ease-in-out forwards infinite alternate;
   position: absolute;
   top: -21%;
@@ -95,8 +95,8 @@
     to right,
     #344c6c 0%,
     #8296a6 33%,
-    #9c99af 66%,
-    rgb(118, 104, 165) 100%
+    #9a99af 66%,
+    rgb(104, 111, 165) 100%
   );
   color: transparent;
 }
