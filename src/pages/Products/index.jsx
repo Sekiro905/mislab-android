@@ -34,12 +34,21 @@ export default class Products extends Component {
                 src='erp'
                 imgOuterClass='erp-img-outer'
               />
+              <Product
+                productTheme={stateProduct?'zy-show':'zy'}
+                title="智优物流路径规划系统"
+                supplement="致力于建设一站式SaaS操作服务平台"
+                supplementClass="zywl"
+                detail="以实际运输问题展开,针对城市内的快递运输网络进行建模,研究了时间约束条件下中心选址与车辆调度一体化的运输调度问题。"
+                src="zhiyou"
+                imgOuterClass='zy-img-outer'
+              />
             </div>
             <div className={styles["products-brief-intro-outer"]}>
               <p className={styles["products-brief-intro"]}>
                 工作室目前主要有三个大项目。
                 <br />
-                分别是ERP虚拟运营系统,邮问必答,物流路径规划系统,用于保证工作室同学手里都可以利用项目进行实战学习。
+                分别是邮问必答,ERP虚拟运营系统,物流路径规划系统,用于保证工作室同学手里都可以利用项目进行实战学习。
               </p>
             </div>
           </div>
