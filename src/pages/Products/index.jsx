@@ -39,7 +39,7 @@ export default class Products extends Component {
                 title="智优物流路径规划系统"
                 supplement="致力于建设一站式SaaS操作服务平台"
                 supplementClass="zywl"
-                detail="以实际运输问题展开,针对城市内的快递运输网络进行建模,研究了时间约束条件下中心选址与车辆调度一体化的运输调度问题。"
+                detail="针对城市内的快递运输网络进行建模,研究了时间约束条件下中心选址与车辆调度一体化的问题。"
                 src="zhiyou"
                 imgOuterClass='zy-img-outer'
               />
