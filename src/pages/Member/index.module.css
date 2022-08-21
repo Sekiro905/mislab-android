@@ -77,8 +77,6 @@
 .member-left-show {
   right: 100%;
   text-align: center;
-  background-color: brown;
-  animation: member-member-left1 10s linear forwards;
 }
 .member-right,
 .member-right-show {
@@ -87,12 +85,12 @@
 }
 .left {
   white-space: nowrap;
-  height: 17px;
+  height: 16px;
   width: 100%;
 }
 .right {
   white-space: nowrap;
-  height: 17px;
+  height: 16px;
   width: 100%;
 }
 
@@ -189,6 +187,14 @@
   animation: member-member-left 10s linear infinite;
   animation-delay: 0.2s;
 }
+.member-left-show div:nth-child(24) {
+  animation: member-member-left 13.6s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-left-show div:nth-child(25) {
+  animation: member-member-left 17.4s linear infinite;
+  animation-delay: 0.2s;
+}
 
 /* 右边的member */
 .member-right-show div:nth-child(1) {
@@ -272,7 +278,7 @@
   animation-delay: 0.2s;
 }
 .member-right-show div:nth-child(21) {
-  animation: member-member-right 17.3s linear infinite;
+  animation: member-member-right 17.7s linear infinite;
   animation-delay: 0.2s;
 }
 .member-right-show div:nth-child(22) {
@@ -281,6 +287,14 @@
 }
 .member-right-show div:nth-child(23) {
   animation: member-member-right 10.5s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right-show div:nth-child(24) {
+  animation: member-member-right 13.8s linear infinite;
+  animation-delay: 0.2s;
+}
+.member-right-show div:nth-child(25) {
+  animation: member-member-right 16.2s linear infinite;
   animation-delay: 0.2s;
 }
 

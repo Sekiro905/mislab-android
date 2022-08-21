@@ -37,32 +37,29 @@ export default class Home extends Component {
     window.onscroll = () => {
       // 关于我们
       let scollTop =
-        window.pageYOffset 
-        ||
-        document.documentElement.scrollTop 
-        ||
+        window.pageYOffset ||
+        document.documentElement.scrollTop ||
         document.body.scrollTop;
 
-      // console.log(scollTop);
-      if (scollTop >= 1250) {
+      if (scollTop >= 1340) {
         this.setState({ stateUs: true });
       }
       // 产品介绍
-      if (scollTop >= 1470) {
+      if (scollTop >= 1640) {
         this.setState({ stateProduct: true });
       }
       // 部门介绍
-      if (scollTop >= 2230) {
+      if (scollTop >= 2380) {
         this.setState({ stateDepartA: true });
       }
-      if (scollTop >= 2480) {
+      if (scollTop >= 2680) {
         this.setState({ stateDepartB: true });
       }
-      if (scollTop >= 2780) {
+      if (scollTop >= 2980) {
         this.setState({ stateDepartC: true });
       }
       // 成员弹幕
-      if (scollTop >= 3180) {
+      if (scollTop >= 3500) {
         this.setState({ stateMember: true });
       }
     };
