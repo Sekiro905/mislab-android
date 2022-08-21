@@ -1,9 +1,11 @@
 /* 每个产品的展示框 */
 .item {
+  overflow: hidden;
   width: 365px;
-  height: 120px;
+  height: 128px;
   border-radius: 30px;
   display: flex;
+  align-items: center;
   position: relative;
   justify-content: space-between;
 }
@@ -14,7 +16,7 @@
 .youwen-show {
   background: linear-gradient(90deg, #f1f2d0, #b1d8b4);
   position: relative;
-  margin: 10px auto;
+  margin: 12px auto;
   opacity: 0;
   animation: ywmove 1s linear forwards;
 }
@@ -25,7 +27,7 @@
 .erp-show {
   background: linear-gradient(270deg, #c9dae7, #ebeff9);
   position: relative;
-  margin: 10px auto;
+  margin: 12px auto;
   opacity: 0;
   animation: erpmove 1s linear forwards;
 }
@@ -34,16 +36,15 @@
   opacity: 0;
 }
 .zy-show {
-  background: linear-gradient(270deg, rgb(217,217,217), rgb(217,217,217));
+  background: linear-gradient(270deg, rgb(217, 217, 217), rgb(217, 217, 217));
   position: relative;
-  margin: 10px auto;
+  margin: 12px auto;
   opacity: 0;
   animation: zymove 1s linear forwards;
 }
 
 .yw-img-outer {
   width: 110px;
-  height: 119px;
   position: relative;
   top: 1px;
   left: 10px;
@@ -51,6 +52,7 @@
 
 .yw-img-outer img {
   width: 100%;
+  margin-bottom: -3px;
 }
 
 .erp-img-outer {
@@ -64,7 +66,7 @@
 .erp-img-outer img {
   width: 130%;
   position: absolute;
-  left: -14%;
+  left: -16%;
 }
 
 .zy-img-outer {
@@ -83,9 +85,13 @@
 }
 
 .product-more-outer {
-  width: 220px;
-  height: 110px;
-  margin: 5px 15px 5px 0;
+  width: 235px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 15px 15px 15px 0;
+  box-sizing: border-box;
 }
 
 .product-title {
@@ -99,21 +105,20 @@
 }
 
 .product-detail {
-  margin-top: 10px;
   font-size: 13px;
   letter-spacing: 2px;
 }
 
 .ywbd {
-  color: #44914b;
+  color: #6a9b71;
 }
 
 .erpxt {
-  color: #4a73dc;
+  color: #6593a8;
 }
 
 .zywl {
-  color: white;
+  color: rgb(160, 160, 160);
 }
 
 /* 产品卡缓慢出现 */

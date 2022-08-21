@@ -5,7 +5,7 @@
 .back {
   width: 100vw;
   height: 100%;
-  min-width: 370Px;/* px-to-viewport-ignore */
+  min-width: 370px; /* px-to-viewport-ignore */
   margin: 0 auto;
   margin-bottom: 40px;
 }
@@ -28,14 +28,14 @@
 .content {
   width: 100%;
   height: 100%;
-  min-width: 370Px;/* px-to-viewport-ignore */
+  min-width: 370px; /* px-to-viewport-ignore */
 }
 /* 上 */
 .top {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  min-width: 115Px;/* px-to-viewport-ignore */
+  min-width: 115px; /* px-to-viewport-ignore */
   margin-top: 30px;
   padding-bottom: 24px;
 }
@@ -73,14 +73,34 @@
   src: url("../../static/joinus.ttf");
 }
 .middle {
+  position: relative;
   width: 100%;
-  height: 130px;
   text-align: center;
   line-height: 130px;
   font-family: "joinus";
   font-weight: 700;
   font-style: normal;
   font-size: 28px;
+}
+.middle > i {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-image: linear-gradient(
+    270deg,
+    hsla(0, 0%, 100%, 0) ,
+    rgb(221, 235, 235) 50%,
+    hsla(0, 0%, 100%, 0) 
+  );
+}
+.middle_before_i{
+  position: absolute;
+  top: 25px;
+}
+.middle_after_i{
+  position: absolute;
+  top: 95px;
 }
 /* 下 */
 .down {

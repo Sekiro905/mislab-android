@@ -66,8 +66,8 @@
 
 .pic3 {
   position: absolute;
-  left: 220px;
-  top: 55px;
+  left: 230px;
+  top: 65px;
   transform: translate(-50%,-50%) rotate(-4deg);
 }
 
@@ -99,7 +99,7 @@
 
 .pic6 {
   position: absolute;
-  right: 90px;
+  right: 80px;
   bottom: 95px;
   transform: translate(-50%,-50%) rotate(4deg);
 }
@@ -132,8 +132,8 @@
 
 .pic9 {
   position: absolute;
-  left: 290px;
-  bottom: 100px;
+  left: 300px;
+  bottom: 95px;
   transform: translate(-50%,-50%) rotate(10deg);
 }
 
@@ -176,8 +176,8 @@
 
 .pic13 {
   position: absolute;
-  left: 120px;
-  bottom: 280px;
+  left: 130px;
+  bottom: 285px;
   transform: translate(-50%,-50%) rotate(-30deg);
 }
 
@@ -187,7 +187,7 @@
 
 .pic14 {
   position: absolute;
-  left: 290px;
+  left: 300px;
   bottom: 220px;
   transform: translate(-50%,-50%) rotate(25deg);
 }
