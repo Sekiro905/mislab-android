@@ -30,7 +30,7 @@ export default class Products extends Component {
                 title="ERP虚拟运营系统"
                 supplement="系统在信管必修课上长期使用"
                 supplementClass='erpxt'
-                detail="通过构建一个虚拟的市场环境,让受训者充当企业的CEO,体会如何管理企业中的物资流动、资金流动和信息流动。"
+                detail="通过构建一个虚拟的市场环境,让受训者体会如何管理企业中的物资流动、资金流动和信息流动。"
                 src='erp'
                 imgOuterClass='erp-img-outer'
               />
