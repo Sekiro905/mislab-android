@@ -41,25 +41,25 @@ export default class Home extends Component {
         document.documentElement.scrollTop ||
         document.body.scrollTop;
 
-      if (scollTop >= 1340) {
+      if (scollTop >= 1320) {
         this.setState({ stateUs: true });
       }
       // 产品介绍
-      if (scollTop >= 1640) {
+      if (scollTop >= 1580) {
         this.setState({ stateProduct: true });
       }
       // 部门介绍
-      if (scollTop >= 2380) {
+      if (scollTop >= 2320) {
         this.setState({ stateDepartA: true });
       }
-      if (scollTop >= 2680) {
+      if (scollTop >= 2600) {
         this.setState({ stateDepartB: true });
       }
-      if (scollTop >= 2980) {
+      if (scollTop >= 2780) {
         this.setState({ stateDepartC: true });
       }
       // 成员弹幕
-      if (scollTop >= 3500) {
+      if (scollTop >= 3200) {
         this.setState({ stateMember: true });
       }
     };
