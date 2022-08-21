@@ -25,6 +25,7 @@
   margin-left: 5px;
   font-size: 14px;
   font-family: "STKaiti";
+  color: rgb(115,136,155);
   font-weight: bold;
   letter-spacing: 5px;
 }
@@ -32,6 +33,7 @@
 .homepage-title2 {
   display: block;
   font-size: 18px;
+  color: rgb(115,136,155);
   font-family: "STKaiti";
   font-weight: bold;
 }
