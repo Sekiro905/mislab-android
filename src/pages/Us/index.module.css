@@ -141,6 +141,39 @@
   width: 70px;
 }
 
+.pic10 {
+  position: absolute;
+  left: 150px;
+  bottom: 180px;
+  transform: translate(-50%,-50%) rotate(20deg);
+}
+
+.pic10 img {
+  width: 90px;
+}
+
+.pic11 {
+  position: absolute;
+  left: 100px;
+  bottom: 90px;
+  transform: translate(-50%,-50%) rotate(0deg);
+}
+
+.pic11 img {
+  width: 80px;
+}
+
+.pic12 {
+  position: absolute;
+  left: 260px;
+  bottom: 140px;
+  transform: translate(-50%,-50%) rotate(5deg);
+}
+
+.pic12 img {
+  width: 75px;
+}
+
 .us-pic-outer {
   width: 100%;
   height: 189px;
