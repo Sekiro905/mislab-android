@@ -59,15 +59,15 @@ export default class Department extends Component {
               <DepartLeft
                 className={stateDepartB?'product-show':'product'}
                 title="产品设计部"
-                content="捕捉事物间逻辑，倾听用户们需求，结合各平台数据，设计最好用产品。来产品策划部,
+                content="捕捉事物间逻辑，倾听用户们需求，结合各平台数据，设计最好用产品。来产品设计部,
                     培养更缜密的思维，学习产品设计，将从道术器三个层面，建立自己与互联网产品的亲密联系。"
               />
 
               <DepartRight
                 className={stateDepartB?'robot-show':'robot'}
-                title="机器学习部"
-                content="机器学习从从历史数据中学习规律，将规律应用到未来中。我们致力于研究如何
-                    通过计算的手段，利用数据构建模型，量化过去，预测未来。"
+                title="大数据与人工智能部"
+                content="大数据与人工智能从历史数据中学习规律，将规律应用到未来中。我们致力于研究如何
+                通过计算的手段，利用数据构建模型，量化过去，预测未来。"
               />
 
               <DepartLeft
