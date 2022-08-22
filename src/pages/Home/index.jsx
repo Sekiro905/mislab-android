@@ -74,6 +74,8 @@ export default class Home extends Component {
     window.onresize = () => {
       if(window.innerWidth >= window.innerHeight) {
         this.setState({stateHome:true})
+      } else {
+        this.setState({stateHome:false})
       }
     }
     return (
