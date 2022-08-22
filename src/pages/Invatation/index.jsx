@@ -63,7 +63,7 @@ export default class Invatation extends Component {
                 src={require("../../assets/jiaru.png")}
                 alt="图片加载失败."
               />
-              <a href="https://jq.qq.com/?_wv=1027&k=NNPyqnRr" className={styles.link}></a>
+              <a href="https://www.wjx.top/vm/QgOqdNa.aspx" className={styles.link}></a>
             </div>
             <div className={styles.middle}>
               {/* <i className={styles.middle_before_i}></i> */}
