@@ -48,7 +48,7 @@ export default class Products extends Component {
               <p className={styles["products-brief-intro"]}>
                 工作室目前主要有三个大项目。
                 <br />
-                分别是邮问必答,ERP虚拟运营系统,物流路径规划系统,用于保证工作室同学手里都可以利用项目进行实战学习。
+                分别是邮问必答、ERP虚拟运营系统、物流路径规划系统，用于保证工作室同学手里都可以利用项目进行实战学习。
               </p>
             </div>
           </div>

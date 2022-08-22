@@ -25,7 +25,7 @@
   margin-left: 5px;
   font-size: 14px;
   font-family: "STKaiti";
-  color: rgb(115,136,155);
+  color: rgb(115, 136, 155);
   font-weight: bold;
   letter-spacing: 5px;
 }
@@ -33,7 +33,7 @@
 .homepage-title2 {
   display: block;
   font-size: 18px;
-  color: rgb(115,136,155);
+  color: rgb(115, 136, 155);
   font-family: "STKaiti";
   font-weight: bold;
 }
@@ -168,9 +168,9 @@
   background-image: linear-gradient(
     to right,
     #486c9a 0%,
-    #64729b 33%,
-    #5c6da2 66%,
-    rgb(116, 60, 153) 100%
+    #808aa6 33%,
+    rgb(145, 151, 139) 66%,
+    rgb(123, 165, 138) 100%
   );
   color: transparent;
 }
