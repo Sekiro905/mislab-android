@@ -89,9 +89,9 @@
   height: 3px;
   background-image: linear-gradient(
     270deg,
-    hsla(0, 0%, 100%, 0) ,
+    hsla(0, 0%, 100%, 0) 15%,
     rgb(221, 235, 235) 50%,
-    hsla(0, 0%, 100%, 0) 
+    hsla(0, 0%, 100%, 0) 85%
   );
 }
 .middle_before_i{
