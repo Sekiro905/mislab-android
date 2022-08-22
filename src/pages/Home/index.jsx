@@ -9,6 +9,8 @@ import Invatation from "../Invatation";
 
 export default class Home extends Component {
   state = {
+    // 首页横屏状态
+    stateHome:false,
     // 关于我们动画状态
     stateUs: false,
     // 产品介绍状态
@@ -22,6 +24,7 @@ export default class Home extends Component {
   };
   render() {
     const {
+      stateHome,
       stateUs,
       stateProduct,
       stateDepartA,
@@ -63,16 +66,26 @@ export default class Home extends Component {
         this.setState({ stateMember: true });
       }
     };
+    window.onload = () => {
+      if(window.innerWidth >= window.innerHeight) {
+        this.setState({stateHome:true})
+      }
+    }
+    window.onresize = () => {
+      if(window.innerWidth >= window.innerHeight) {
+        this.setState({stateHome:true})
+      }
+    }
     return (
-      <div>
-        <Homepage />
+      <>
+        <Homepage stateHome={stateHome} />
         <Team />
         <Us stateUs={stateUs} />
         <Products stateProduct={stateProduct} />
         <Department stateDepart={stateDepart} />
         <Member stateMember={stateMember} />
         <Invatation />
-      </div>
+      </>
     );
   }
 }

@@ -4,9 +4,11 @@ import styles from "./index.module.css";
 
 export default class Homepage extends Component {
   render() {
+    const { stateHome } = this.props;
+
     return (
       <div className="homepage-wrapper">
-        <div className={styles.back}>
+        <div className={!stateHome ? styles.back : styles["back-horizon"]}>
           <div className={styles.content}>
             <div className={styles["homepage-title-outer"]}>
               <div>
@@ -19,7 +21,7 @@ export default class Homepage extends Component {
             <div className={styles["right-graphic2-outer"]}></div>
             <div className={styles["middle-slogan-outer"]}>
               <div>
-              <div className={styles.sloganWrapper}>
+                <div className={styles.sloganWrapper}>
                   <span className={styles.slogan1}>和优秀的人</span>
                   <span className={styles.slogan2}>做有挑战的事</span>
                 </div>
@@ -28,12 +30,7 @@ export default class Homepage extends Component {
                 </div>
               </div>
             </div>
-            <Link
-              to="Team"
-              smooth={true}
-              duration={500}
-              spy={true}
-            >
+            <Link to="Team" smooth={true} duration={500} spy={true}>
               <div className={styles["foot-plane-outer"]}>
                 <img src={require("../../assets/feiji.png")} alt="纸飞机" />
               </div>
