@@ -19,7 +19,7 @@ export default class Products extends Component {
               <Product
                 productTheme={stateProduct?'youwen-show':'youwen'}
                 title="邮问必答"
-                supplement="服务于重庆邮电大学学生处学业辅导中心"
+                supplement="服务于学业辅导中心"
                 supplementClass='ywbd'
                 detail="招募学业优秀、乐于助人的志愿者，针对数理、英语和专业等课程面向全校同学提供答疑服务。"
                 src="youwen"
