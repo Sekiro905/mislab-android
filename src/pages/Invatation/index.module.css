@@ -94,11 +94,11 @@
     hsla(0, 0%, 100%, 0) 85%
   );
 }
-.middle_before_i{
+.middle_before_i {
   position: absolute;
   top: 25px;
 }
-.middle_after_i{
+.middle_after_i {
   position: absolute;
   top: 95px;
 }
@@ -125,4 +125,20 @@
   margin: 0 auto;
   width: 260px;
   height: 110px;
+}
+
+.otherTags {
+  width: 190px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tag{
+  background-color: #d6edee;
+  border-radius: 10PX;
+  padding: 7PX 8PX;
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
 }

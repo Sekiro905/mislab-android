@@ -65,6 +65,10 @@ export default class Invatation extends Component {
               />
               <a href="https://www.wjx.top/vm/QgOqdNa.aspx" className={styles.link}></a>
             </div>
+            <div className={styles.otherTags}>
+              <a href="https://www.wjx.top/vm/QgOqdNa.aspx" className={styles.tag}>报名投递</a>
+              <a href="https://jq.qq.com/?_wv=1027&k=4wZMnlYM" className={styles.tag}>招新咨询</a>
+            </div>
             <div className={styles.middle}>
               {/* <i className={styles.middle_before_i}></i> */}
               <span>想和优秀的你&nbsp;&nbsp;一起改变世界</span>
