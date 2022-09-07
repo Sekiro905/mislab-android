@@ -96,9 +96,11 @@
   background-image: linear-gradient(
     to right,
     #344c6c 0%,
-    #8296a6 33%,
-    #9a99af 66%,
-    rgb(104, 111, 165) 100%
+    #8296a6 20%,
+    #82a69b 40%,
+    #a8987a 60%,
+    #a6828b 80%,
+    #79498c 100%
   );
   color: transparent;
 }
